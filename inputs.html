@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <h2>Add your details here:</h2>
+    <form action="mailto:rumanzen69@gmail.com" method="post" enctype="text/plain">
+        <label>Name: <input type="text" name="name"></label><br>
+        <label >Gender:
+             <input type="radio" name="gender" value="male">Male
+             <input type="radio" name="gender" value="female">Female
+             <input type="radio" name="gender" value="trans">Trans
+             <input type="radio" name="gender" value="rather not say">Rather not say
+        </label><br>
+        <label>Age group:
+        <select name="age">
+            <option>Please choose</option>
+            <option>13 - 16</option>
+            <option>17 - 20</option>
+            <option>21 - 24</option>
+            <option>25+</option>
+        </select>
+        </label><br>
+        <label>E-mail: <input type="email"></label><br>
+        <label>Mobile no: <input type="number" name="mobile"></label><br>
+        <label>Address: <br><textarea rows="4" cols="20" name="address"></textarea></label><br>
+        <label>Receive promotional mails <input type="checkbox"></label><br>
+        <label>Create a password: <input type="password"></label><br>
+        <input type="submit">  
+    </form>
+</body>
+</html>
